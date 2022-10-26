@@ -42,7 +42,7 @@ h2{
   transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
 
   width: 100%;
-  height: 100vw;
+  height: 180vw;
 }
 @media (min-width: 650px) {
   .container{
@@ -130,6 +130,14 @@ h2{
 
 .text_second > h2{
   text-align: right;
+  margin-left: 30%;
+  width: 70%;
+}
+@media (min-width: 6500px) {
+  .text_second > h2{
+    margin: 0;
+    width: 100%;
+  }
 }
 @media (min-width: 1200px) {
   .text_second > h2{
@@ -153,6 +161,7 @@ h2{
 .avatar{
   background-color: #0188D1;
   width: 15%;
+  height: 15%;
   border-radius: 5px 0 5px 0;
   z-index: 1;
   padding: 5px;
@@ -166,6 +175,7 @@ h2{
 .avatar_img{
   border-radius: 50%;
   width: 100%;
+  margin: 45% 0;
 }
 
 @media (min-width: 650px) {
